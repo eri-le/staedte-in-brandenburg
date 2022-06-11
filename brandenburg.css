@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* CSS Document für Städte in Brandenburg */
+{box-sizing: border-box;}
+body {
+	 max-width:120em;
+ 	 margin: 1.5rem;
+ 	 background-color: beige;
+ 	 Font-family: 'arial' , 'Helvetica Neue' , 'sans-serif;
+  	Font-size: 16px;
+ 	 @charset "utf-8";
+     }
+
+
+
+/* CSS für die Startseite */
+
+.flex-container-person
+{
+	display: flex;
+	width: 95%;
+	margin:1.0rem;
+	justify-content: space-around;
+	text-aligne: center;
+}
+
+.flex-container-person p
+{
+	  background-color: gray;
+	  font-size: 22px;
+		color: #FFF;
+		width: 35rem;
+		padding:10px;
+		border: 5px solid green;
+}
+.flex-container-person img
+{
+		margin-top: 1.5rem;
+}
+	/* Text zum Land Brandenburg mit Flex-Box */
+
+.flex-container-brandenburg
+{
+		display: flex;
+		width: 95%;
+		margin-top:2.5rem;
+		justify-content: space-between;
+		text-aligne: center;
+		text-decoration: none;
+}
+.flex-container-brandenburg  a
+{
+		font-size:22px;
+		margin-left: 2.5rem;
+		text-decoration: none;
+}
+.flex-container-brandenburg  p
+{
+		background-color:limeGreen;
+		font-size: 21px;
+		color: black;
+		width: 38rem;
+		padding:10px;
+		border: 5px solid green;
+}
+
+	/* 1 Fotos je Stadt auf Startseite */
+.flex-container-ein-Bild-je-Stadt
+{
+		display: flex;
+		text-decoration: none;
+		wigth: 90%
+		margin: 0;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		border: 5px solid green;
+}
+.flex-container-ein-Bild-je-Stadt a
+{
+	/*	 display: flex;
+		 justify-content: space-between;
+		 flex-flow: row wrap;
+		 margin: 1.0rem;  */
+		 text-decoration: none;
+	}
+.flex-container-ein-Bild-je-Stadt img
+{
+		 display: flex;
+		 justify-content: space-between;
+		 flex-flow: row wrap;
+		 margin: 1.0rem;
+		 text-decoration: none;
+	}
+.flex-container-ein-Bild-je-Stadt figcaption
+{
+				color: green;
+				margin-left: 2.0rem;
+				margin-bottom: 2.0rem;
+				text-decoration: none;
+}
+
+	/* Liste für Auswahl der Städte */
+
+.auswahl-einer-stadt > ul > li > a
+{
+			  display: inline-block;
+			  text-decoration: none;
+			  margin-left: 1rem;
+}
+
+		/*  CSS für die einzelnen Stadtseiten  */
+
+
+ .flex-container-stadt-einstieg
+ {
+	  display: flex;
+    width: 95%
+  	margin-top: 2rem;
+	  justify-content: space-around;
+ 	  text-aligne: center;
+	  text-decoration: none;
+ }
+ .flex-container-stadt-einstieg  a
+ {
+	 font-size:22px;
+		margin-left: 1rem;
+		justify-content: space-around;
+	  text-decoration: none;
+		 border: 2px solid silver;
+ }
+
+.flex-container-besonderes-foto
+{
+  	display:flex;
+  	width: 99%;
+  	margin-top:2.5rem;
+  	justify-content: space-between;
+  	text-aligne: center;
+  	text-decoration: none;
+}
+.flex-container-besonderes-foto  a
+{
+	  display:inline-block;
+		font-size:18px;
+		margin-left: 2rem;
+		text-decoration: none;
+}
+.flex-container-besonderes-foto p
+{
+  	font-size: 18px;
+  	color: black;
+    margin-left: 2rem;
+    margin-top: 8.0rem;
+    height: 144px;
+ 	  padding:10px;
+	  /* border: 2px solid blue; */
+		background-color: LightSkyBlue;
+}
+
+.flex-container-besondere-fotos
+{
+  	display:flex;
+  	width: 99%;
+  	margin-top:1.rem;
+  	justify-content: space-between;
+  	text-aligne: center;
+  	text-decoration: none;
+}
+.flex-container-besondere-fotos  a
+{
+	  display:inline-block;
+		font-size:19px;
+		margin-left: 2rem;
+		text-decoration: none;
+}
+.flex-container-besondere-fotos p
+{
+  	font-size: 19px;
+  	color: black;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    height: 210px;
+ 	  padding:10px;
+	 /* border: 2px solid blue;*/
+	 background-color: gold;
+}
+
+	#video-bereich video
+	{
+				width: 40%;
+				height: auto;
+				margin-left:438px;
+				margin-bottom: 32px;
+				border: 5px solid green;
+	}
+
+	.flex-container-besonderes-video
+	{
+			display: flex;
+			justify-content: space-between;
+			text-aligne: center;
+			margin: 1.2;
+	 /*	margin-top:  1.0rem;
+			margin-left: 2.0rem;
+			margin-reight: 1rem; */
+	}
+	.flex-container-besonderes-video p
+	{
+	   display:inline-block;
+			font-size: 19px;
+	  	color: black;
+	   /* margin-left: 1.2rem;
+			margin-reight: 2.2rem;*/
+	    margin-top: 5.5rem;
+	    height: 120px;
+	 	  padding:10px;
+		  border: 2px solid blue;
+	}
+
+	.flex-container-besondere-fotos-video
+	{
+			display: flex;
+			justify-content: space-between;
+			text-aligne: center;
+
+			margin-top:  1.0rem;
+	/*		margin-left: 2.0rem;
+			margin-reight: 1rem;  */
+	}
+
+	.flex-container-besondere-fotos-video  a
+	{
+		  display:inline-block;
+			font-size:20px;
+			margin-top: 2.0rem;
+			margin-left: 2rem;
+			text-decoration: none;
+	}
+	.flex-container-besondere-fotos-video  video
+	{
+			display:inline-block;
+	    margin-top:1.0rem;
+			margin-left: 2rem;
+			text-decoration: none;
+	}
+
+	.flex-container-besondere-fotos-video p
+	{
+	/* display:inline-block; */
+			font-size: 19px;
+			color: black;
+		  margin-left: 1.2rem;
+			margin-reight: 1.2rem;
+			margin-top: 5.2rem;
+			height: 200px;
+			padding:10px;
+			border: 2px solid blue;
+	}
+
+		.abschließende-bemerkung
+ {
+	height:220px;
+	margin:1.2rem;
+	background-color: skyblue;
+	border: 2px solid blue;
+	}
+
+	.abschließende-bemerkung p
+{
+	font-size: 20px;
+  padding:15px;
+	color: black;
+	}
+	.abschließende-bemerkung-hellgrün
+{
+	height:220px;
+	margin:1.2rem;
+	background-color: aquamarine;
+	border: 2px solid green;
+}
+
+.abschließende-bemerkung-hellgrün p
+{
+	font-size: 20px;
+	padding:15px;
+	color: black;
+}
